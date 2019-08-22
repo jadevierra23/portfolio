@@ -5,6 +5,8 @@ Jade's portfolio
 
 ### even smaller
 
-**somthing bold**
+**something bold**
 
 _something_
+
+#Hello
