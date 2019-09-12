@@ -1,9 +1,29 @@
-section, article, ul {outline:1px solid red; background: rgba(255, 0, 0, 0.5);}
-.proof{border:1px; solid:red}
-.grid-container {outline: 1px solid blue;}
-@@media only screen and (max-width: 40em) {
+/* NAVIGATION */
+div.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: white;
+}
 
-h1{display: none;}
+/* TEXT */
+h2 {
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  width: 75%;
+  font-size: 30px;
 
 }
+
+h3 {
+  font-family: 'Raleway', sans-serif, 300;
+}
+
+p {
+  font-family: 'Raleway', sans-serif, 400;
+  margin-top: 10px;
+}
+
+
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
