@@ -3,8 +3,9 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 5px;
+  padding: 7px;
   background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 #menu {
@@ -20,7 +21,7 @@ h2 /* Headings */ {
   margin-top: 150px;
   margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -63,6 +64,24 @@ blockquote {
   font-size: 20px;
 }
 
+/* FORM */
+label {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.form {
+  margin: 0 auto;
+  min-width: 200px;
+  max-width: 960px;
+  padding: 20px 20px 60px 20px;
+}
+
+.row {
+  padding-top: 30px;
+}
+
 /* SPACING */
 .grid-x {
   min-width: 300px;
@@ -78,14 +97,16 @@ blockquote {
 
 /* BUTTONS */
 .button {
-  color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  margin-top: 20px;
   text-align: center;
-  margin: 20px;
-  top: 50%;
-  left: 50%;
+
 }
+
+/* FOOTER */
+.footer {
+  bottom: 0;
+}
+
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
