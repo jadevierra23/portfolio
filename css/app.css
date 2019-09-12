@@ -1,5 +1,5 @@
 /* NAVIGATION */
-div.topnav {
+.topnav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -7,23 +7,85 @@ div.topnav {
   background-color: white;
 }
 
+#menu {
+  float: right;
+  padding-right: 11px;
+  padding-top: 11px;
+  color: black;
+}
+
 /* TEXT */
-h2 {
+
+h2 /* Headings */ {
+  margin-top: 150px;
+  margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
-  margin: auto;
-  width: 75%;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 /* CTAs */ {
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4 /* CTA text */ {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 10px 5px 50px 5px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h5 /* copyright */ {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 20px 20px 20px 20px;
+  background-color: black;
+  color: white;
+}
+
+p /* body text */ {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+blockquote {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+/* SPACING */
+.grid-x {
+  min-width: 300px;
+  max-width: 960px;
+  margin: 0 auto;
 
 }
 
-h3 {
-  font-family: 'Raleway', sans-serif, 300;
+/* IMG */
+#marc {
+  margin: 0;
 }
 
-p {
-  font-family: 'Raleway', sans-serif, 400;
-  margin-top: 10px;
+/* BUTTONS */
+.button {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  margin: 20px;
+  top: 50%;
+  left: 50%;
 }
-
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
